@@ -97,6 +97,56 @@ li{
     color: #0da2b8 ;
     font-size: 0.9em;
 }
+
 #qualifications--list{
     list-style: none;
+}
+
+#wrapper--techstack_items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+.card--techstack{
+    border: 1px solid var(--mainBorderColor);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    align-items: center;
+}
+
+.card--work-history{
+    border-left:1px solid var(--mainBorderColor) ;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+.line-break{
+    background-color: var(--mainBorderColor);
+    height: 1px;
+}
+
+.card--education{
+    border-left:1px solid var(--mainBorderColor) ;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+.card--project{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid var(--mainBorderColor);
+}
+
+.card--project a{
+    color:#000;
+
+    transition: 0.3s;
+}
+
+.card--project a:hover{
+    color: rgb(30, 190,214);
+
 }
